@@ -1,0 +1,76 @@
+Multi-task learning
+3,4,5 * 100 => 300 => (100 => 2) * 3
+Epoch 1, loss=1.10, train accuracy = [0.86087192 0.84906763 0.85283132], test accuracy = [0.88752583 0.87086777 0.86867252]
+Epoch 2, loss=0.78, train accuracy = [0.90191606 0.89388971 0.89934991], test accuracy = [0.89888946 0.8830062  0.88855888]
+Epoch 3, loss=0.67, train accuracy = [0.91689952 0.91009922 0.91401973], test accuracy = [0.90999483 0.89617769 0.89643595]
+Epoch 4, loss=0.59, train accuracy = [0.92896042 0.92174669 0.9227589 ], test accuracy = [0.90831612 0.89927686 0.90211777]
+Epoch 5, loss=0.54, train accuracy = [0.93668739 0.92807653 0.92900319], test accuracy = [0.89914773 0.89088326 0.89566116]
+Epoch 6, loss=0.50, train accuracy = [0.94276061 0.93725764 0.93296647], test accuracy = [0.89682335 0.8862345  0.90005165]
+Epoch 7, loss=0.47, train accuracy = [0.94884808 0.94177692 0.93576072], test accuracy = [0.90508781 0.89243285 0.89759814]
+Epoch 8, loss=0.45, train accuracy = [0.95199875 0.94578296 0.93685846], test accuracy = [0.89669421 0.88649277 0.89165806]
+Epoch 9, loss=0.43, train accuracy = [0.95470746 0.95005988 0.93789918], test accuracy = [0.91167355 0.89733988 0.90160124]
+Epoch 10, loss=0.41, train accuracy = [0.9571453  0.95360972 0.93933907], test accuracy = [0.90134298 0.88804236 0.8990186 ]
+Epoch 11, loss=0.40, train accuracy = [0.9594976  0.95437956 0.94052235], test accuracy = [0.9058626  0.89294938 0.90495868]
+Epoch 12, loss=0.39, train accuracy = [0.9612654  0.95616161 0.94063641], test accuracy = [0.90327996 0.89243285 0.90160124]
+Epoch 13, loss=0.38, train accuracy = [0.96226334 0.95807197 0.94109261], test accuracy = [0.90715393 0.89746901 0.89811467]
+Epoch 14, loss=0.37, train accuracy = [0.96366047 0.95864222 0.94171989], test accuracy = [0.90728306 0.8942407  0.90728306]
+Epoch 15, loss=0.36, train accuracy = [0.96460139 0.96090899 0.94294594], test accuracy = [0.90211777 0.88610537 0.90134298]
+Epoch 16, loss=0.36, train accuracy = [0.96420221 0.96103729 0.94323107], test accuracy = [0.91180269 0.89811467 0.90470041]
+
+Single-task learning
+3,4,5 * 100 => 300 => 2
+TASK1
+Epoch 1, loss=0.36, train accuracy = 0.8538435218978102, test accuracy = 0.8894628099173554
+Epoch 2, loss=0.29, train accuracy = 0.8860059306569343, test accuracy = 0.8943698347107438
+Epoch 3, loss=0.26, train accuracy = 0.8986370894160584, test accuracy = 0.8966942148760331
+Epoch 4, loss=0.24, train accuracy = 0.9072907162408759, test accuracy = 0.9027634297520661
+Epoch 5, loss=0.22, train accuracy = 0.9133496806569343, test accuracy = 0.9096074380165289
+Epoch 6, loss=0.21, train accuracy = 0.9205348996350365, test accuracy = 0.906120867768595
+Epoch 7, loss=0.20, train accuracy = 0.9253535583941606, test accuracy = 0.8997933884297521
+Epoch 8, loss=0.18, train accuracy = 0.9291172445255474, test accuracy = 0.9017303719008265
+Epoch 9, loss=0.17, train accuracy = 0.9337648266423357, test accuracy = 0.9075413223140496
+Epoch 10, loss=0.16, train accuracy = 0.9394388686131386, test accuracy = 0.9080578512396694
+Epoch 11, loss=0.15, train accuracy = 0.9415060447080292, test accuracy = 0.9036673553719008
+Epoch 12, loss=0.14, train accuracy = 0.9469662408759124, test accuracy = 0.9076704545454546
+Epoch 13, loss=0.14, train accuracy = 0.950173927919708, test accuracy = 0.9018595041322314
+Epoch 14, loss=0.13, train accuracy = 0.9527400775547445, test accuracy = 0.9026342975206612
+Epoch 15, loss=0.12, train accuracy = 0.9564467381386861, test accuracy = 0.9053460743801653
+Epoch 16, loss=0.11, train accuracy = 0.956988480839416, test accuracy = 0.903021694214876
+
+
+TASK2
+Epoch 1, loss=0.39, train accuracy = 0.8425809762773723, test accuracy = 0.8675103305785123
+Epoch 2, loss=0.31, train accuracy = 0.8756700501824818, test accuracy = 0.8731921487603306
+Epoch 3, loss=0.28, train accuracy = 0.8887003877737226, test accuracy = 0.8854597107438017
+Epoch 4, loss=0.26, train accuracy = 0.8971829379562044, test accuracy = 0.8879132231404959
+Epoch 5, loss=0.24, train accuracy = 0.9053661040145985, test accuracy = 0.890495867768595
+Epoch 6, loss=0.23, train accuracy = 0.9115248631386861, test accuracy = 0.8946280991735537
+Epoch 7, loss=0.21, train accuracy = 0.9170705976277372, test accuracy = 0.8917871900826446
+Epoch 8, loss=0.20, train accuracy = 0.9229014598540146, test accuracy = 0.8917871900826446
+Epoch 9, loss=0.18, train accuracy = 0.9291172445255474, test accuracy = 0.8972107438016529
+Epoch 10, loss=0.17, train accuracy = 0.9338361085766423, test accuracy = 0.8911415289256198
+Epoch 11, loss=0.16, train accuracy = 0.9372148722627737, test accuracy = 0.8861053719008265
+Epoch 12, loss=0.15, train accuracy = 0.9427891195255474, test accuracy = 0.8929493801652892
+Epoch 13, loss=0.14, train accuracy = 0.9462249087591241, test accuracy = 0.8885588842975206
+Epoch 14, loss=0.14, train accuracy = 0.9498175182481752, test accuracy = 0.8821022727272727
+Epoch 15, loss=0.13, train accuracy = 0.9523551551094891, test accuracy = 0.8884297520661157
+Epoch 16, loss=0.12, train accuracy = 0.9552064324817519, test accuracy = 0.8946280991735537
+
+
+TASK3
+Epoch 1, loss=0.37, train accuracy = 0.8511775775547445, test accuracy = 0.8787448347107438
+Epoch 2, loss=0.29, train accuracy = 0.8857350593065694, test accuracy = 0.8912706611570248
+Epoch 3, loss=0.26, train accuracy = 0.8984232436131386, test accuracy = 0.8916580578512396
+Epoch 4, loss=0.24, train accuracy = 0.9070055885036497, test accuracy = 0.8997933884297521
+Epoch 5, loss=0.22, train accuracy = 0.9146897810218978, test accuracy = 0.8947572314049587
+Epoch 6, loss=0.20, train accuracy = 0.9212619753649635, test accuracy = 0.9003099173553719
+Epoch 7, loss=0.19, train accuracy = 0.9266936587591241, test accuracy = 0.8928202479338843
+Epoch 8, loss=0.17, train accuracy = 0.932324931569343, test accuracy = 0.9027634297520661
+Epoch 9, loss=0.17, train accuracy = 0.9378564096715328, test accuracy = 0.893595041322314
+Epoch 10, loss=0.16, train accuracy = 0.9410213275547445, test accuracy = 0.9058626033057852
+Epoch 11, loss=0.15, train accuracy = 0.9440721943430657, test accuracy = 0.9014721074380165
+Epoch 12, loss=0.14, train accuracy = 0.9485629562043796, test accuracy = 0.8996642561983471
+Epoch 13, loss=0.13, train accuracy = 0.9519987454379562, test accuracy = 0.8889462809917356
+Epoch 14, loss=0.12, train accuracy = 0.955348996350365, test accuracy = 0.8988894628099173
+Epoch 15, loss=0.12, train accuracy = 0.9584711450729927, test accuracy = 0.9005681818181818
+Epoch 16, loss=0.11, train accuracy = 0.9608377052919708, test accuracy = 0.8978564049586777
